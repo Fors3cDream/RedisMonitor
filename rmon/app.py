@@ -23,5 +23,5 @@ def create_app():
 
 	if app.debug:
 		with app.app_context():
-			db.create_app()
+			db.create_all()
 	return app
