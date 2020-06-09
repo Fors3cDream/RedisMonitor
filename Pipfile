@@ -1,0 +1,21 @@
+[[source]]
+name = "aliyun"
+url = "https://mirrors.aliyun.com/pypi/simple/"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+flask = "*"
+marshmallow = "*"
+hiredis = "*"
+redis = "*"
+flask-sqlalchemy = "*"
+ipython = "*"
+pylint = "*"
+pytest = "*"
+pytest-flask = "*"
+flask-shell-ipython = "*"
+
+[requires]
+python_version = "3.6"
